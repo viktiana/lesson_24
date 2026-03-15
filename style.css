@@ -6,203 +6,103 @@
 
 }
 
+body{
+    background:#ffffff;
+}
+
+.block{
+    width:420px;
+}
 
 .header-text {
     font-family: "Playfair Display", serif;
     color: var(--header-text);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0;
 
+}
+
+#header{
+    width: 350px;
+    margin: 40px auto 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-div{
+    display: flex;
+    gap: 30px;
 }
 
 .header-text_a {
     font-family: "Playfair Display", serif;
     color: var(--a-text);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0;
+    text-decoration: none;
 }
 
-.block_1-small_text {
+.block-small_text {
     font-family: "Ubuntu", sans-serif;
     color: var(--small-text);
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 14px;
     line-height: 100%;
     letter-spacing: 0;
-}
-
-.block_2-small_text {
-    font-family: "Ubuntu", sans-serif;
-    color: var(--small-text);
-    font-weight: 300px;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_3-small_text {
-    font-family: "Ubuntu", sans-serif;
-    color: var(--small-text);
-    font-weight: 300px;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_4-small_text {
-    font-family: "Ubuntu", sans-serif;
-    color: var(--small-text);
-    font-weight: 300px;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_5-small_text {
-    font-family: "Ubuntu", sans-serif;
-    color: var(--small-text);
-    font-weight: 300px;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_6-small_text {
-    font-family: "Ubuntu", sans-serif;
-    color: var(--small-text);
-    font-weight: 300px;
-    font-size: 14px;
-    line-height: 100%;
-    letter-spacing: 0;
+    margin-bottom: 40px;
 }
 
 
-.block_1-h {
+.block-h{
     font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
+    color: var(--web-text);
+    font-weight: 400;
     font-size: 30px;
-    font-style: regular;
+    font-style: normal;
     line-height: 100%;
     letter-spacing: 0;
+    margin-bottom: 40px;
 }
 
-.block_2-h {
+.block-text{
     font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 30px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_3-h {
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 30px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_4-h {
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 30px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_5-h {
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 30px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_6-h {
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 30px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_1-text{
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
+    color: var(--web-text);
+    font-weight: 400;
     font-size: 14px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_2-text{
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 14px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_3-text{
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 14px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_4-text{
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 14px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_5-text{
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 14px;
-    font-style: regular;
-    line-height: 100%;
-    letter-spacing: 0;
-}
-
-.block_6-text{
-    font-family: "Playfair Display", serif;
-    color: var(--header-text);
-    font-weight: 400px;
-    font-size: 14px;
-    font-style: regular;
-    line-height: 100%;
+    font-style: normal;
+    line-height: 1.6;
     letter-spacing: 0;
 }
 
 .btn {
+    font-family: "Playfair Display", serif;
+    color: var(--web-text);
     border-color: var(--web-text);
+    padding: 20px 40px;
     border-radius: 0;
+    border-color: var(--web-text);
     background-color: white;
+    cursor: pointer;
+    margin: 60px auto;
+    display: block;
+    grid-column: span 2;
+    justify-self: center;
+}
+
+img{
+    margin-bottom:20px;
+}
+
+.lifestyle{
+    width: 900px;
+    display: grid;
+    grid-column: 2;
+    gap: 60px;
+    grid-template-columns: 420px 420px;
+    margin: 0 auto;
 }
